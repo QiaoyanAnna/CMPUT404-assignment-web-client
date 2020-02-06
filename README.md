@@ -18,6 +18,11 @@ examples thus some of the code is Copyright © 2001-2013 Python
 Software Foundation; All Rights Reserved under the PSF license (GPL
 compatible) http://docs.python.org/2/library/socketserver.html
 
-Collaboration
+Reference
+========================
+
+Ricky, “How to urlencode a querystring in Python?,” *Stack Overflow*, 18-Feb-2012. [Online]. Available: https://stackoverflow.com/questions/5607551/how-to-urlencode-a-querystring-in-python. [Accessed: 06-Feb-2020].
+
+Collaborator
 ========================
 Zhonghao Lu
