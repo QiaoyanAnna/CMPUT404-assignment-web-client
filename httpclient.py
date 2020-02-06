@@ -124,7 +124,7 @@ class HTTPClient(object):
 
         if args != None:
             # reference: https://stackoverflow.com/questions/5607551/how-to-urlencode-a-querystring-in-python [Accessed: 06-Feb-2020]
-            parameters = urllib.parse.quote_plus(args)
+            parameters = urllib.parse.urlencode(args)
             payload = payload + "Content-length: " + str(len(parameters)) + "\r\n"
             payload = payload + "Connection: close\r\n\r\n"
             payload = payload + parameters
