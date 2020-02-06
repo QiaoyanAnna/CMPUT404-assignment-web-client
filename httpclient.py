@@ -123,7 +123,8 @@ class HTTPClient(object):
         payload = payload + "Content-type: application/x-www-form-urlencoded\r\n"
 
         if args != None:
-            parameters = urllib.parse.urlencode(args)
+            # reference: https://stackoverflow.com/questions/5607551/how-to-urlencode-a-querystring-in-python [Accessed: 06-Feb-2020]
+            parameters = urllib.parse.quote_plus(args)
             payload = payload + "Content-length: " + str(len(parameters)) + "\r\n"
             payload = payload + "Connection: close\r\n\r\n"
             payload = payload + parameters
