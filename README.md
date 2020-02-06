@@ -21,7 +21,7 @@ compatible) http://docs.python.org/2/library/socketserver.html
 Reference
 ========================
 
-Ricky, “How to urlencode a querystring in Python?,” *Stack Overflow*, 18-Feb-2012. [Online]. Available: https://stackoverflow.com/questions/5607551/how-to-urlencode-a-querystring-in-python. [Accessed: 06-Feb-2020].
+bgporter, “How to urlencode a querystring in Python?,” *Stack Overflow*, 9-Apr-2011. [Online]. Available: https://stackoverflow.com/questions/5607551/how-to-urlencode-a-querystring-in-python. [Accessed: 05-Feb-2020].
 
 Collaborator
 ========================
