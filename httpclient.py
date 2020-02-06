@@ -158,9 +158,6 @@ if __name__ == "__main__":
         help()
         sys.exit(1)
     elif (len(sys.argv) == 3):
-        url = sys.argv[2]
-        command = sys.argv[1]
-        print(client.command( url, command ))
+        print(client.command( sys.argv[2], sys.argv[1] ))
     else:
-        command = sys.argv[1]
-        print(client.command( command ))
+        print(client.command( sys.argv[1] ))
